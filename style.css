@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+.gridContainer{
+    height: 350px;
+    width: 500px;
+    border: 1px solid;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 100px auto 200px;
+    grid-template-rows: auto 200px 50px;
+    gap: 10px;
+}
+.item{
+    background-color: #fff;
+    border: 1px solid;
+}
